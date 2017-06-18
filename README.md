@@ -1,8 +1,5 @@
 ## Decisions
 
-- From account input, appears to be a selector, but there's nothing saying this on the README
-- There's no font file on the zip, so I used only arial.
-
 ## Available Scripts
 
 In the project directory, you can run:
