@@ -1,0 +1,35 @@
+.pt-transaction {
+	border: 1px solid #c1c1c1;
+	border-left-width: 10px;
+	border-bottom: none;
+	display: flex;
+	align-items: center;
+	padding: 20px 20px;
+	color: #373737;
+}
+
+.pt-transaction:last-child {
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.pt-transaction img {
+	height: 45px;
+	margin: 0px 50px;
+}
+
+.pt-transaction-to {
+	margin: 0;
+}
+
+.pt-transaction-merchant {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: 0.8em;
+}
+
+.pt-transaction-amount {
+	margin-left: auto;
+	font-weight: 500;
+	font-size: 1.5em;
+}

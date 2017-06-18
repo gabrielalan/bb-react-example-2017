@@ -1,0 +1,10 @@
+.pt-header {
+	background-color: white;
+	border-bottom: 3px solid #ff8349;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 15px -5px black;
+}
+
+.pt-header img {
+	height: 50px;
+}

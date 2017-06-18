@@ -1,0 +1,17 @@
+.pt-main-columns {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 45px;
+}
+
+.pt-main-columns > div {
+	margin-right: 30px;
+}
+
+.pt-main-columns #form {
+	flex: 0 0 32%;
+}
+
+.pt-main-columns #list {
+	flex: 0 0 68%;
+}
