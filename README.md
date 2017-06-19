@@ -2,10 +2,11 @@ Hours used: 7:30
 
 ## Decisions
 
-- It has been written in React, because... yeah... you know... reasons :neutral_face:
-- The search filter is used to match only against `merchant` and `amount`.
-- No CSS frameworks or libraries. I think on this case is not necessary.
-- Used webpack and some other tools mixedd on react-script, which is a simple way to write a React App. But all the APP code is made by hand.
+1. It has been written in React, because... yeah... you know... reasons :neutral_face:
+2. The search filter is used to match only against `merchant` and `amount`.
+3. No CSS frameworks or libraries. I think on this case is not necessary.
+3. Used webpack and some other tools mixedd on react-script, which is a simple way to write a React App.
+    * This means that some files are generated automatically (like *manifest.json, index.html and etc), but all the APP code is made by hand.
 
 ## Excecute
 
