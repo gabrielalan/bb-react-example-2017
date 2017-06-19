@@ -46,6 +46,22 @@ body {
   color: #8d8b86;
 }
 
+.pt-currency-input {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+.pt-currency-input input {
+  border: none;
+}
+
+.pt-currency-input span {
+  font-size: 1.5em;
+  font-family: Kanit;
+  color: #aba7a2;
+  padding: 5px 10px 5px 0px;
+}
+
 .pt-button-ct {
   text-align: center;
 }

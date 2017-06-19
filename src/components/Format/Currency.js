@@ -10,6 +10,14 @@ const formatter = new Intl.NumberFormat('en-US', {
 	minimumFractionDigits: 2,
 });
 
+const noCurrencyFormatter = new Intl.NumberFormat('en-US', {
+	minimumFractionDigits: 2,
+});
+
+export function simpleFormat(value) {
+	return noCurrencyFormatter.format(value);
+}
+
 export default function(value) {
 	return formatter.format(value);
 }

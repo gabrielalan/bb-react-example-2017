@@ -34,7 +34,17 @@ class Transfer extends Component {
 					</div>
 					<div className="pt-input-ct">
 						<label htmlFor="amount">Amount</label>
-						<input type="number" name="amount" id="amount" required="required" placeholder="$ 0.00" ref={(input) => this.amount = input}/>
+						<div className="pt-currency-input">
+							<span className="pt-currency-symbol">$</span>
+							<input type="number"
+								   step="any"
+								   min="0"
+								   name="amount"
+								   id="amount"
+								   required="required"
+								   placeholder="0.00"
+								   ref={(input) => this.amount = input}/>
+						</div>
 					</div>
 					<div className="pt-button-ct">
 						<button className="pt-btn" type="submit">Submit</button>

@@ -19,7 +19,7 @@ class Transactions extends Component {
 					<span className="pt-transaction-merchant">{item.merchant}</span>
 					<span className="pt-transaction-type">{item.transactionType}</span>
 				</p>
-				<span className="pt-transaction-amount">{currencyFormat(item.amount)}</span>
+				<span className="pt-transaction-amount">{currencyFormat(-item.amount)}</span>
 			</div>
 		));
 	}
