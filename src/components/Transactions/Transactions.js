@@ -10,7 +10,15 @@ class Transactions extends Component {
 		return { borderLeftColor };
 	}
 
+	getEmpty() {
+		return <h3>No transactions found!</h3>;
+	}
+
 	getList() {
+		if (!this.props.data.length) {
+			return this.getEmpty();
+		}
+
 		return this.props.data.map((item, index) => (
 			<div key={index} className="pt-transaction" style={this.getTransactionBorderStyle(item.categoryCode)}>
 				<span className="pt-transaction-date">{dateFormat(new Date(item.transactionDate))}</span>

@@ -1,7 +1,15 @@
+Hours used: 7:30
+
 ## Decisions
 
-- 15:00 ~ 19:00
-- 9:30 ~ 10:50
+- It has been written in React, because... yeah... you know... reasons :neutral_face:
+- The search filter is used to match only against `merchant` and `amount`.
+- No CSS frameworks or libraries. I think on this case is not necessary.
+- Used webpack and some other tools mixedd on react-script, which is a simple way to write a React App. But all the APP code is made by hand.
+
+## Excecute
+
+Just open `build/index.html`.
 
 ## Available Scripts
 
@@ -14,11 +22,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
 
 ### `npm run build`
 

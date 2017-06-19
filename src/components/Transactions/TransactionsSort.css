@@ -1,0 +1,25 @@
+.pt-sort-btns {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0px;
+}
+
+.pt-sort-btns p {
+	margin-right: 20px;
+	font-size: 1.5em;
+}
+
+.pt-sort-btns .pt-button-group {
+	margin-right: 20px;
+}
+
+.pt-btn.pt-sort-direction {
+	padding: 11px 10px 10px;
+	line-height: 12px;
+}
+
+.pt-sort-direction img {
+	width: 26px;
+}

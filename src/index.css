@@ -87,10 +87,33 @@ body {
   font-family: 'Kanit';
 }
 
+.pt-btn:hover {
+  background-color: #c2622e;
+}
+
 .pt-btn-white {
   background-color: white;
-  border: 1px solid #eee;
+  border: 1px solid #dbdbdb;
   color: #333;
+}
+
+.pt-active.pt-btn-white,
+.pt-btn-white:hover {
+  background-color: #eee;
+}
+
+.pt-button-group .pt-btn {
+  border-radius: 0;
+  border-left: none;
+}
+
+.pt-button-group .pt-btn:last-child {
+  border-radius: 0px 3px 3px 0px;
+}
+
+.pt-button-group .pt-btn:first-child {
+  border-radius: 3px 0px 0px 3px;
+  border-left: 1px solid #dbdbdb;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -109,4 +132,95 @@ body {
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
   color:    #aba7a2;
+}
+
+/* XS devices */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+
+  .pt-button-group .pt-btn {
+    display: block;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .pt-sort-btns .pt-button-group {
+    width: 80%;
+  }
+
+  .pt-sort-btns .pt-button-group {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .pt-sort-btns p {
+    margin-right: 0px;
+  }
+
+  .pt-transaction img {
+    display: none;
+  }
+
+  .pt-transaction-to {
+    margin-left: 20px;
+  }
+
+  .pt-panel#confirm {
+    width: 380px;
+  }
+
+  .pt-sort-btns {
+    flex-direction: column;
+  }
+}
+
+/* SM devices */
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .pt-header .container {
+    text-align: center;
+  }
+
+  .pt-main-columns {
+    flex-wrap: wrap;
+  }
+
+  .pt-main-columns #form,
+  .pt-main-columns #list,
+  .pt-main-columns .pt-panel {
+    flex: 1 1 100%;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+/* Large Devices */
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+/* Extra large devices */
+@media (min-width: 1620px) {
+  .container {
+    width: 1620px;
+  }
 }
