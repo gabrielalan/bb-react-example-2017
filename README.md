@@ -1,5 +1,8 @@
 ## Decisions
 
+- 15:00 ~ 19:00
+- 9:30 ~ 10:50
+
 ## Available Scripts
 
 In the project directory, you can run:

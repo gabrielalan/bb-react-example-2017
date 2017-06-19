@@ -2,6 +2,7 @@
 	display: flex;
 	align-items: flex-start;
 	padding-top: 45px;
+	padding-bottom: 45px;
 }
 
 .pt-main-columns > div {

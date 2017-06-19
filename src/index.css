@@ -28,7 +28,8 @@ body {
 
 .pt-input-ct input,
 .pt-input-ct select,
-.pt-input-ct textarea {
+.pt-input-ct textarea,
+.pt-input-ct .pt-fake-input {
   width: 100%;
   -webkit-appearance: none;
   padding: 5px 0px;
@@ -41,39 +42,55 @@ body {
   color: #313131;
 }
 
+.pt-input-ct [disabled] {
+  color: #8d8b86;
+}
+
 .pt-button-ct {
   text-align: center;
 }
 
 .pt-button-ct .pt-btn {
   display: inline-block;
+  margin-right: 20px;
+}
+
+.pt-button-ct .pt-btn:last-child {
+  margin-right: 0px;
 }
 
 .pt-btn {
+  cursor: pointer;
   font-size: 1.125em;
   text-transform: uppercase;
   color: white;
   background-color: #ee7033;
   border-radius: 3px;
-  border: none;
+  border: 1px solid transparent;
   padding: 10px 40px;
   font-family: 'Kanit';
 }
 
+.pt-btn-white {
+  background-color: white;
+  border: 1px solid #eee;
+  color: #333;
+}
+
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color:    #7b7772;
+  color: #aba7a2;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-  color:    #7b7772;
+  color:    #aba7a2;
   opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-  color:    #7b7772;
+  color:    #aba7a2;
   opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color:    #7b7772;
+  color:    #aba7a2;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color:    #7b7772;
+  color:    #aba7a2;
 }
